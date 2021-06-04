@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="talespinnerz_confirm_demo.css">
+    <script src ="talespinnerz_confirm_demo.js" async></script>
+    <title>TALESPINNERZ - Confirm Your Choices!</title>
+</head>
+
+<!-- 
+
+Shannon Broden
+Start Your Talespinnerz Adventure Confirm Demo Page
+June 1, 2021
+
+
+-->
+<div id="main">
+    <section id="storySetup">
+      <img src="talespinnerz_logo.jpg">
+    <h1 id="title">CONFIRM YOUR CHOICES FOR YOUR PERSONALIZED TALESPINNERZ ADVENTURE!</h1>
+    <p><em>Please note that in a finished version the user would select the below fields. For demo purposes, the values are pre-populated.</em></p>
+    <form id="confirmForm" name="confirmForm" method="POST" action="talespinnerz_countdown_demo.html" input type="text" input type = "submit">
+      <input type="text" id="storyEvent" name="storyLead" value = "Maid Marian"required><br>
+       <p>Name an action you'd like to see in the story:<br>
+      <input type="text" id="storyEvent" name="storyEvent" value ="danced" required><br>
+         Name a location you'd like to see in the story:<br>
+       <p><input type="text" id="storyLocale" name="storyLocale" value = "Sherwood Forest" required><br>
+          Name an item you'd like to see in the story:<br>
+       <p><input type="text" id="storyItem" name="storyItem" value = "broom" required></p>
+      <input type="submit" id="submit" name="confirmSubmit" value="Let's Go On An Adventure!"></input>
+    </form>
+

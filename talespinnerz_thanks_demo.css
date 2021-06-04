@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/*
+  Talespinnerz Thank You Page CSS
+  June 3, 2021
+
+*/
+
+html {
+   background-color: #fff;
+}
+
+h2 {
+   color: #140fdb;
+   font-family: Arial, Helvetica, sans-serif, "sans-serif";
+   width: 400px;
+   text-align: center;
+}
+
+h3 {
+   color: #000;
+   font-family: Arial, Helvetica, sans-serif, "sans-serif";
+   width: 400px;
+   text-align: center;
+}
