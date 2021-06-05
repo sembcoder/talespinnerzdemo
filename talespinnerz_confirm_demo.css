@@ -1,5 +1,5 @@
 /* Talespinnerz Confirm Page Demo CSS
-June 4, 2021 */
+June 5, 2021 */
 
 html {
   background: #ffffff;
@@ -12,7 +12,6 @@ h1 {
   font-family: Arial, Helvetica, sans-serif, "sans-serif";
   font-style: italic;
   font-size: 36px;
-  width: 800px;
   text-align: center;
 }
 
@@ -21,4 +20,25 @@ img {
 padding: 5px;
 width: 70%;
 height: 70%
+}
+/*  Mobile styling - 0 to 640px */
+@media only screen and (max-width: 640px) {
+
+   
+  body {
+     margin: 0px;
+  }
+  
+  img {
+     width: 100%;
+  }
+
+  article h1 {
+     font-size: 1.6em;
+  }
+  
+  footer section {
+     font-size: 1.2em;
+     width: 100%;
+  }
 }

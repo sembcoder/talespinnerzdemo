@@ -2,13 +2,19 @@
 
 /*
   Talespinnerz Countdown Demo  CSS
-  June 1, 2021
+  June 3, 2021
 
 */
 
 html {
    background-color: #fff;
 }
+
+img {
+   padding: 5px;
+   width: 70%;
+   height: 70%
+   }
 
 h2 {
    color: #140fdb;
@@ -54,3 +60,26 @@ div#Alert {
    letter-spacing: 0.25em;
    height: 80px;
 }
+
+/*  Mobile styling - 0 to 640px */
+@media only screen and (max-width: 640px) {
+
+   
+   body {
+      margin: 0px;
+   }
+   
+   img {
+      width: 100%;
+   }
+   
+   article h1 h2 h3 h4 {
+      font-size: 1.6em;
+   }
+   
+   footer section {
+      font-size: 1.2em;
+      width: 100%;
+   }
+ }
+ 
