@@ -1,5 +1,5 @@
 /* Talespinnerz Confirm Page Demo CSS
-June 5, 2021 */
+June 6, 2021 */
 
 html {
   background: #ffffff;
@@ -14,6 +14,24 @@ h1 {
   font-size: 36px;
   text-align: center;
 }
+
+.button {
+   background-color: #140fdb;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   transition-duration: 0.4s;
+}
+
+.button:hover {
+   background-color: #ffffff;
+   color: #140fdb;
+   border: 5px solid #140fbd;
+ }
 
 
 img {
@@ -30,6 +48,8 @@ footer {
    text-align: left;
  }
  
+
+
 /*  Mobile styling - 0 to 640px */
 @media only screen and (max-width: 640px) {
 
