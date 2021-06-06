@@ -2,7 +2,7 @@
 
 /*
   Talespinnerz Countdown Demo  CSS
-  June 3, 2021
+  June 5, 2021
 
 */
 
@@ -60,6 +60,14 @@ div#Alert {
    letter-spacing: 0.25em;
    height: 80px;
 }
+
+footer {
+   color: #140fdb;
+   font-family: Arial, Helvetica, sans-serif, "sans-serif";
+   font-size: 12px;
+   font-style: bold;
+   text-align: left;
+ }
 
 /*  Mobile styling - 0 to 640px */
 @media only screen and (max-width: 640px) {

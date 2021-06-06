@@ -20,6 +20,7 @@ June 4, 2021
          <article id="finishStory">
             <img src="talespinnerz_logo.jpg">
             <h1>YOUR TALESPINNERZ TALE IS HERE!</h1>
+            <p><em>Please note that in a finished version the user would select the below fields. For demo purposes, the values are pre-populated.</em></p>
             <p><input type="text" id="storyEvent" name="storyLead" value = "Maid Marian"required> decided to go on an adventure,</p>
             <p>and <input type="text" id="storyEvent" name="storyEvent" value="danced"required> through <input type="text" id="storyLocale" name="storyLocale" value = "Sherwood Forest" required>. </p>
             <p>holding on to a <input type="text" id="storyItem" name="storyItem" value = "broom" required>.</p>
@@ -29,7 +30,7 @@ June 4, 2021
             <p>Maid Marian features as the main female character in the English legend of Robin Hood.</p>
       <section id="notifications">
          <form id="signupForm" name="signupForm" method="POST" action="talespinnerz_thanks_demo.html" input type="text" input type = "submit">
-         <p><h4>Thanks for trying us out! Tell us how to contact you about the latest TALESPINNERZ news! (These fields are optional.)</h4></p>
+         <p><h4>Thanks for trying us out! Tell us how to contact you about the latest TALESPINNERZ news! (These fields are optional. Press the NO option if you'd rather try again!)</h4></p>
            <label for="name" id="name-label">Name:</label><br>
            <input type="text" id="name" name="name" placeholder="Your Name Here"><br>
            <label for="email" id="email-label">E-mail:</label><br>
@@ -37,6 +38,15 @@ June 4, 2021
            <input type="submit" id="submit" name="signupSubmit" value="Keep me informed!"></input>
          </section>
       </form>
+      <section id="tryAgainForm">
+      <form id="tryAgainForm" name="tryAgainForm" method="POST" action="index.html" input type="text" input type = "submit">
+      <input type="submit" id="submit" name="tryAgainSubmit" value="No, I just want to try again!"></input>
+      </section>
+   </form>
+      <footer>
+         <br>
+         <br>
+         <b>TALESPINNERZ Copyright 2021 Shannon Muir Broden.</b>
+       </footer>
 </body>
-
 </html>
