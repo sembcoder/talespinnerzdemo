@@ -5,6 +5,9 @@
 <p><b>2. How does it work?</b><br>
   Right now, due to GitHub Pages hosting limitations, the code must be downloaded from GitHub and the webpages run locally.</p>
   <p><b>3. What types of coding does this include?</b></p>
+  <ul>
+  <li> Responsive mobile design CSS
+   </ul>
   <p><b>4. What personal accomplishments or challenges would you want to highlight?</b><br>
   In terms of accomplishments,<br>
   In terms of challenges,</p>
