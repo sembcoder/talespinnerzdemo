@@ -8,7 +8,7 @@
   <ul>
   <li> Responsive mobile design CSS.
    <li> Fields that need to be filled out in a form.
-   <li> Form submit buttons, including one that only becomes functional when certain conditions are met.
+   <li> Form submit buttons, including one that only becomes functional when certain conditions are met, and one page that provides two form submit button selections to take the user on different flows.
    <li> JS based countdown clock.
    </ul>
   <p><b>4. What personal accomplishments or challenges would you want to highlight?</b><br>
