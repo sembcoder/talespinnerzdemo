@@ -6,8 +6,8 @@
   Right now, due to GitHub Pages hosting limitations, the code must be downloaded from GitHub and the webpages run locally. The actual use of the program requires pressing various submit buttons to advance from page to page of the story.</p>
   <p><b>3. What types of coding does this include?</b></p>
   <ul>
-  <li> STyling CSS buttons.
-    Responsive mobile design CSS.
+  <li> Syyling CSS buttons.
+   <li>Responsive mobile design CSS.
    <li> Fields that need to be filled out in a form.
    <li> Form submit buttons, including one that only becomes able to be clicked when certain conditions are met, and one page that provides two form submit button selections to take the user on different flows.
    <li> JS based countdown clock.
